@@ -1,138 +1,91 @@
-![Advanced Developer Profile](https://raw.githubusercontent.com/RafiurRahmanSaikat/RafiurRahmanSaikat/main/github-cover.svg)
-
-# Hi there, I'm Rafiur Rahman Saikat 👋
-
-I'm a **Full-Stack Web Developer** and **Software Engineer** with a passion for building robust, scalable, and innovative web applications. I have a strong foundation in both frontend and backend development, and I love diving into problem solving, data structures, and algorithms to craft efficient solutions.
-
-## 🚀 About Me
-
-- 🔭 I'm currently working on developing full-stack applications using modern web technologies
-- 🌱 I'm constantly learning and refining my skills in new frameworks and languages
-- 👯 I'm looking to collaborate on exciting projects that challenge my skills and push the boundaries of technology
-- 💬 Ask me about web development, backend services, and algorithmic problem solving
-- 📫 How to reach me: [md.rafiur.rahman.saikat@gmail.com](mailto:md.rafiur.rahman.saikat@gmail.com)
-- ⚡ Fun fact: I enjoy solving complex coding challenges and regularly practice data structures and algorithms!
-
-## 🔧 Tech Stack
-
-<table>
-<tr>
-<td valign="top" width="33%">
-
-### Frontend
-<div align="center">
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/react-original-wordmark.svg" alt="React" height="50" />
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" height="50" />
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/typescript-original.svg" alt="TypeScript" height="50" />
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="HTML5" height="50" />
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg" alt="CSS3" height="50" />
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/nextjs.png" alt="NextJS" height="50" />
-</div>
-
-</td>
-<td valign="top" width="33%">
-
-### Backend
-<div align="center">
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/nodejs-original-wordmark.svg" alt="Node.js" height="50" />
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/express-original-wordmark.svg" alt="Express.js" height="50" />
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/python-original.svg" alt="Python" height="50" />
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/django-original.svg" alt="Django" height="50" />
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/graphql.png" alt="GraphQL" height="50" />
-</div>
-
-</td>
-<td valign="top" width="33%">
-
-### DevOps & Database
-<div align="center">
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/mongodb-original-wordmark.svg" alt="MongoDB" height="50" />
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/mysql-original-wordmark.svg" alt="MySQL" height="50" />
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/git-scm-icon.svg" alt="Git" height="50" />
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/docker-original-wordmark.svg" alt="Docker" height="50" />
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/firebase.png" alt="Firebase" height="50" />
-</div>
-
-</td>
-</tr>
-</table>
-
-## 💡 Problem Solving & Algorithms
-
-I have a deep interest in problem solving and regularly tackle challenges on competitive programming platforms. I have honed my skills in:
-
-- **Data Structures:** Arrays, Linked Lists, Stacks, Queues, Trees, Graphs, Hash Tables, Heaps, and more
-- **Algorithms:** Sorting, Searching, Dynamic Programming, Greedy Algorithms, Graph Algorithms, etc.
-- **Competitive Programming:** Active on LeetCode, Codeforces, and HackerRank with 300+ solved problems
-
-## 🚀 Featured Projects
-
-<div style="display: flex; gap: 20px;">
-
-<a href="https://github.com/RafiurRahmanSaikat/shopzone-frontend">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=RafiurRahmanSaikat&repo=shopzone-frontend&theme=tokyonight" />
-</a>
-<a href="https://github.com/RafiurRahmanSaikat/shopzone-frontend">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=RafiurRahmanSaikat&repo=shopzone-frontend&theme=tokyonight" />
-</a>
-
-
-
-</div>
-
-<div style="display: flex; gap: 20px; margin-top: 10px;">
-
-<a href="https://github.com/RafiurRahmanSaikat/shopzone_backend">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=RafiurRahmanSaikat&repo=shopzone_backend&theme=tokyonight" />
-</a>
-<a href="https://github.com/RafiurRahmanSaikat/shopzone_backend">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=RafiurRahmanSaikat&repo=shopzone_backend&theme=tokyonight" />
-</a>
-
-
-
-</div>
-
-## 📊 GitHub Stats
-
-<div style="display: flex; gap: 20px;">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=RafiurRahmanSaikat&show_icons=true&count_private=true&theme=tokyonight)
-
-![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=RafiurRahmanSaikat&layout=compact&theme=tokyonight)
-
-</div>
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=RafiurRahmanSaikat&theme=tokyonight)
-
-<!-- ## 🏆 GitHub Trophies
-
-![](https://github-profile-trophy.vercel.app/?username=RafiurRahmanSaikat&theme=nord&no-frame=false&no-bg=true&margin-w=4) -->
-
-## 📫 Let's Connect
+# <div align="center">Hi there, I'm Rafiur Rahman Saikat <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px" height="30px" /></div>
 
 <div align="center">
-<a href="https://github.com/RafiurRahmanSaikat" target="_blank">
-<img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
-</a>
-<a href="https://twitter.com/yourhandle" target="_blank">
-<img src=https://img.shields.io/badge/twitter-%2300acee.svg?&style=for-the-badge&logo=twitter&logoColor=white alt=twitter style="margin-bottom: 5px;" />
-</a>
-<a href="https://linkedin.com/in/yourprofile" target="_blank">
-<img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white alt=linkedin style="margin-bottom: 5px;" />
-</a>
-<a href="https://yourwebsite.com" target="_blank">
-<img src=https://img.shields.io/badge/website-%2324292e.svg?&style=for-the-badge&logo=safari&logoColor=white alt=website style="margin-bottom: 5px;" />
-</a>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=3CA3FF&center=true&vCenter=true&width=435&lines=Full-Stack+Web+Developer;Software+Engineer;Problem+Solver;Technology+Enthusiast" alt="Typing SVG" />
 </div>
 
+<p align="center">
+  <em>Building robust, scalable, and innovative web applications with passion and precision</em>
+</p>
+
 <div align="center">
-<img src="https://komarev.com/ghpvc/?username=RafiurRahmanSaikat&&style=flat-square" align="center" />
+  <a href="https://github.com/RafiurRahmanSaikat">
+    <img src="https://img.shields.io/github/followers/RafiurRahmanSaikat?label=Follow&style=social" alt="GitHub followers" />
+  </a>
+  <img src="https://komarev.com/ghpvc/?username=RafiurRahmanSaikat&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
 </div>
 
 ---
 
+## <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="40px" height="40px"> About Me
+
+```javascript
+const saikat = {
+  currentlyWorkingOn: "Full-stack applications with modern web technologies",
+  currentlyLearning: ["Advanced React Patterns", "Microservices Architecture", "Cloud Technologies"],
+  lookingToCollaborateOn: "Projects that push the boundaries of innovation",
+  askMeAbout: ["Web Development", "Backend Services", "Algorithmic Problem Solving"],
+  reachMeAt: "md.rafiur.rahman.saikat@gmail.com",
+  funFact: "I love solving complex coding challenges and participate in competitive programming"
+};
+```
+
+- 🚀 **Development Focus**: Building scalable web applications and services
+- 📚 **Learning Path**: Continuously expanding my technical knowledge to stay current
+- 🤝 **Collaboration**: Open to working on challenging projects with passionate teams
+- 🧩 **Problem Solving**: Enjoy tackling complex algorithmic challenges
+- 💬 **Communication**: Effective in explaining technical concepts and solutions
+
+---
+
+## <img src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="25px" height="25px"> Tech Stack
+
 <div align="center">
-    <img src="https://forthebadge.com/images/badges/built-with-love.svg" />
-    <img src="https://forthebadge.com/images/badges/powered-by-coffee.svg" />
+  <table>
+    <tr>
+      <td align="center" width="33%">
+        <h3>Frontend</h3>
+        <p align="center">
+          <img src="https://skillicons.dev/icons?i=react,js,ts,html,css,nextjs,tailwind" alt="Frontend Technologies" />
+        </p>
+      </td>
+      <td align="center" width="33%">
+        <h3>Backend</h3>
+        <p align="center">
+          <img src="https://skillicons.dev/icons?i=nodejs,express,python,django,graphql,nestjs" alt="Backend Technologies" />
+        </p>
+      </td>
+      <td align="center" width="33%">
+        <h3>DevOps & Database</h3>
+        <p align="center">
+          <img src="https://skillicons.dev/icons?i=mongodb,mysql,git,docker,firebase,aws" alt="DevOps & Database" />
+        </p>
+      </td>
+    </tr>
+  </table>
 </div>
+
+---
+
+## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="25px" height="25px"> Problem Solving & Algorithms
+
+<div align="center">
+  <p>
+    I have a passion for solving challenging problems through algorithmic thinking and efficient solutions. My expertise includes:
+  </p>
+
+  <table>
+    <tr>
+      <td align="center">
+        <img src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" alt="Coding GIF" width="200px" />
+      </td>
+      <td>
+        <ul>
+          <li>📊 <b>Data Structures:</b> Arrays, Linked Lists, Trees, Graphs, Hash Tables</li>
+          <li>🧮 <b>Algorithms:</b> Sorting, Searching, Dynamic Programming, Greedy Algorithms</li>
+          <li>⚡ <b>Competitive Programming:</b> Active on LeetCode, Codeforces, and HackerRank</li>
+          <li>🏆 <b>Achievement:</b> Solved 300+ algorithmic problems</li>
+        </ul>
+      </td>
+    </tr>
+  </table
