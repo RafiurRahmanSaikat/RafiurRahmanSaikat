@@ -1,6 +1,10 @@
 # <div align="center">Hi there, I'm Rafiur Rahman Saikat <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px" height="30px" /></div>
 
 <div align="center">
+  <img src="banner.svg" alt="Rafiur Rahman Saikat - Full-Stack Developer" width="100%" />
+</div>
+
+<div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=3CA3FF&center=true&vCenter=true&width=435&lines=Full-Stack+Web+Developer;Software+Engineer;Problem+Solver;Technology+Enthusiast" alt="Typing SVG" />
 </div>
 
@@ -88,4 +92,31 @@ const saikat = {
         </ul>
       </td>
     </tr>
-  </table
+  </table>
+</div>
+
+---
+
+## <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="25px" height="25px"> Connect With Me
+
+<div align="center">
+  <a href="https://github.com/RafiurRahmanSaikat" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+  <a href="https://www.linkedin.com/in/rafiurrahmansaikat" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://twitter.com/RafiurSaikat" target="_blank">
+    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" />
+  </a>
+  <a href="mailto:md.rafiur.rahman.saikat@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+</div>
+
+<hr>
+
+<div align="center">
+  <img src="https://profile-counter.glitch.me/{RafiurRahmanSaikat}/count.svg" alt="Visitor Count" />
+  <p><i>Thanks for visiting! Hope to connect with you soon.</i></p>
+</div>

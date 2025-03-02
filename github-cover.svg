@@ -14,13 +14,26 @@
       </stop>
     </linearGradient>
 
-    <!-- Improved text gradient with animation -->
+    <!-- Improved text gradient with tailwind-like colors -->
     <linearGradient id="text-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ff7e5f">
-        <animate attributeName="stop-color" values="#ff7e5f;#feb47b;#ff7e5f" dur="8s" repeatCount="indefinite" />
+      <stop offset="10%" stop-color="#6366f1">
+        <animate attributeName="stop-color" values="#6366f1;#4f46e5;#6366f1" dur="8s" repeatCount="indefinite" />
       </stop>
-      <stop offset="100%" stop-color="#feb47b">
-        <animate attributeName="stop-color" values="#feb47b;#ff7e5f;#feb47b" dur="8s" repeatCount="indefinite" />
+      <stop offset="30%" stop-color="#0ea5e9">
+        <animate attributeName="stop-color" values="#0ea5e9;#0284c7;#0ea5e9" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="90%" stop-color="#10b981">
+        <animate attributeName="stop-color" values="#10b981;#059669;#10b981" dur="8s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <!-- Accent border gradient for tech stack -->
+    <linearGradient id="border-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1">
+        <animate attributeName="stop-color" values="#6366f1;#10b981;#0ea5e9;#6366f1" dur="6s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#0ea5e9">
+        <animate attributeName="stop-color" values="#0ea5e9;#6366f1;#10b981;#0ea5e9" dur="6s" repeatCount="indefinite" />
       </stop>
     </linearGradient>
 
@@ -37,21 +50,13 @@
       <feComposite in="SourceGraphic" in2="blur" operator="over" />
     </filter>
 
-    <!-- Improved pulse animation for tech icons -->
-    <radialGradient id="tech-glow" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
-      <stop offset="0%" stop-color="#61DAFB" stop-opacity="0.8">
-        <animate attributeName="stop-opacity" values="0.8;0.3;0.8" dur="3s" repeatCount="indefinite" />
-      </stop>
-      <stop offset="100%" stop-color="#61DAFB" stop-opacity="0" />
-    </radialGradient>
-
-    <!-- Better particle animation -->
+    <!-- Better particle animation with less blur for more visibility -->
     <filter id="particle-blur" x="0" y="0" width="100%" height="100%">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="1.5" />
+      <feGaussianBlur in="SourceGraphic" stdDeviation="0.8" />
     </filter>
 
-    <!-- Tech badge hover effect -->
-    <filter id="badge-glow" x="-20%" y="-20%" width="140%" height="140%">
+    <!-- Radar glow filter -->
+    <filter id="radar-glow" x="-20%" y="-20%" width="140%" height="140%">
       <feGaussianBlur stdDeviation="2" result="blur" />
       <feComposite in="SourceGraphic" in2="blur" operator="over" />
     </filter>
@@ -80,160 +85,185 @@
     <text x="40" y="230" font-family="'Fira Code', monospace" font-size="13" fill="#ffffff">export default DeveloperProfile;</text>
   </g>
 
-  <!-- Improved floating particles with better movement -->
+  <!-- Improved floating particles with better visibility and movement -->
   <g filter="url(#particle-blur)">
-    <circle cx="100" cy="50" r="2.5" fill="#61DAFB" opacity="0.8">
+    <!-- Increased size and opacity of particles for better visibility -->
+    <circle cx="100" cy="50" r="4" fill="#61DAFB" opacity="0.9">
       <animate attributeName="cy" from="50" to="30" dur="4s" repeatCount="indefinite" />
-      <animate attributeName="opacity" values="0.8;0.4;0.8" dur="4s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;0.6;0.9" dur="4s" repeatCount="indefinite" />
     </circle>
-    <circle cx="800" cy="70" r="2" fill="#ff7e5f" opacity="0.7">
+    <circle cx="800" cy="70" r="3.5" fill="#ff7e5f" opacity="0.85">
       <animate attributeName="cy" from="70" to="95" dur="5s" repeatCount="indefinite" />
       <animate attributeName="cx" from="800" to="810" dur="5s" repeatCount="indefinite" />
-      <animate attributeName="opacity" values="0.7;0.3;0.7" dur="5s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.85;0.5;0.85" dur="5s" repeatCount="indefinite" />
     </circle>
-    <circle cx="300" cy="250" r="2.5" fill="#feb47b" opacity="0.7">
+    <circle cx="300" cy="250" r="4" fill="#feb47b" opacity="0.85">
       <animate attributeName="cy" from="250" to="220" dur="6s" repeatCount="indefinite" />
       <animate attributeName="cx" from="300" to="310" dur="6s" repeatCount="indefinite" />
-      <animate attributeName="opacity" values="0.7;0.4;0.7" dur="6s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.85;0.5;0.85" dur="6s" repeatCount="indefinite" />
     </circle>
-    <circle cx="1000" cy="150" r="2" fill="#ffffff" opacity="0.6">
+    <circle cx="1000" cy="150" r="3.5" fill="#ffffff" opacity="0.8">
       <animate attributeName="cy" from="150" to="125" dur="5s" repeatCount="indefinite" />
       <animate attributeName="cx" from="1000" to="990" dur="5s" repeatCount="indefinite" />
-      <animate attributeName="opacity" values="0.6;0.3;0.6" dur="5s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.8;0.5;0.8" dur="5s" repeatCount="indefinite" />
     </circle>
-    <circle cx="500" cy="200" r="1.8" fill="#61DAFB" opacity="0.6">
+    <circle cx="500" cy="200" r="3.5" fill="#61DAFB" opacity="0.8">
       <animate attributeName="cy" from="200" to="225" dur="4.5s" repeatCount="indefinite" />
       <animate attributeName="cx" from="500" to="505" dur="4.5s" repeatCount="indefinite" />
-      <animate attributeName="opacity" values="0.6;0.3;0.6" dur="4.5s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.8;0.5;0.8" dur="4.5s" repeatCount="indefinite" />
     </circle>
-    <circle cx="200" cy="100" r="2" fill="#ff7e5f" opacity="0.6">
+    <circle cx="200" cy="100" r="3.5" fill="#ff7e5f" opacity="0.8">
       <animate attributeName="cy" from="100" to="85" dur="5.5s" repeatCount="indefinite" />
       <animate attributeName="cx" from="200" to="210" dur="5.5s" repeatCount="indefinite" />
-      <animate attributeName="opacity" values="0.6;0.3;0.6" dur="5.5s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.8;0.5;0.8" dur="5.5s" repeatCount="indefinite" />
     </circle>
-    <circle cx="650" cy="180" r="2.2" fill="#feb47b" opacity="0.7">
+    <circle cx="650" cy="180" r="4" fill="#feb47b" opacity="0.85">
       <animate attributeName="cy" from="180" to="195" dur="6.5s" repeatCount="indefinite" />
       <animate attributeName="cx" from="650" to="640" dur="6.5s" repeatCount="indefinite" />
-      <animate attributeName="opacity" values="0.7;0.4;0.7" dur="6.5s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.85;0.5;0.85" dur="6.5s" repeatCount="indefinite" />
+    </circle>
+    <!-- Additional particles for more visual interest -->
+    <circle cx="400" cy="75" r="3.5" fill="#10b981" opacity="0.8">
+      <animate attributeName="cy" from="75" to="90" dur="5.2s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.8;0.5;0.8" dur="5.2s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="750" cy="230" r="4" fill="#6366f1" opacity="0.85">
+      <animate attributeName="cy" from="230" to="210" dur="6.2s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.85;0.5;0.85" dur="6.2s" repeatCount="indefinite" />
     </circle>
   </g>
 
-  <!-- Improved tech radar/graph background with animation -->
-  <g transform="translate(850, 150)">
-    <circle cx="0" cy="0" r="120" fill="none" stroke="#ffffff25" stroke-width="1">
+  <!-- Improved tech radar/graph background with animation and better visibility -->
+  <g transform="translate(850, 150)" filter="url(#radar-glow)">
+    <!-- Enhanced radar with brighter strokes -->
+    <circle cx="0" cy="0" r="120" fill="none" stroke="#ffffff40" stroke-width="1.5">
       <animate attributeName="r" values="120;125;120" dur="10s" repeatCount="indefinite" />
-      <animate attributeName="stroke-opacity" values="0.25;0.15;0.25" dur="10s" repeatCount="indefinite" />
+      <animate attributeName="stroke-opacity" values="0.4;0.25;0.4" dur="10s" repeatCount="indefinite" />
     </circle>
-    <circle cx="0" cy="0" r="80" fill="none" stroke="#ffffff20" stroke-width="1">
+    <circle cx="0" cy="0" r="80" fill="none" stroke="#ffffff35" stroke-width="1.5">
       <animate attributeName="r" values="80;83;80" dur="8s" repeatCount="indefinite" />
-      <animate attributeName="stroke-opacity" values="0.2;0.1;0.2" dur="8s" repeatCount="indefinite" />
+      <animate attributeName="stroke-opacity" values="0.35;0.2;0.35" dur="8s" repeatCount="indefinite" />
     </circle>
-    <circle cx="0" cy="0" r="40" fill="none" stroke="#ffffff15" stroke-width="1">
+    <circle cx="0" cy="0" r="40" fill="none" stroke="#ffffff30" stroke-width="1.5">
       <animate attributeName="r" values="40;42;40" dur="6s" repeatCount="indefinite" />
-      <animate attributeName="stroke-opacity" values="0.15;0.08;0.15" dur="6s" repeatCount="indefinite" />
+      <animate attributeName="stroke-opacity" values="0.3;0.15;0.3" dur="6s" repeatCount="indefinite" />
     </circle>
-    <line x1="-120" y1="0" x2="120" y2="0" stroke="#ffffff15" stroke-width="1">
-      <animate attributeName="stroke-opacity" values="0.15;0.08;0.15" dur="7s" repeatCount="indefinite" />
+    <line x1="-120" y1="0" x2="120" y2="0" stroke="#ffffff30" stroke-width="1.5">
+      <animate attributeName="stroke-opacity" values="0.3;0.15;0.3" dur="7s" repeatCount="indefinite" />
     </line>
-    <line x1="0" y1="-120" x2="0" y2="120" stroke="#ffffff15" stroke-width="1">
-      <animate attributeName="stroke-opacity" values="0.15;0.08;0.15" dur="7s" repeatCount="indefinite" />
+    <line x1="0" y1="-120" x2="0" y2="120" stroke="#ffffff30" stroke-width="1.5">
+      <animate attributeName="stroke-opacity" values="0.3;0.15;0.3" dur="7s" repeatCount="indefinite" />
     </line>
-    <line x1="-85" y1="-85" x2="85" y2="85" stroke="#ffffff15" stroke-width="1">
-      <animate attributeName="stroke-opacity" values="0.15;0.08;0.15" dur="7s" repeatCount="indefinite" />
+    <line x1="-85" y1="-85" x2="85" y2="85" stroke="#ffffff30" stroke-width="1.5">
+      <animate attributeName="stroke-opacity" values="0.3;0.15;0.3" dur="7s" repeatCount="indefinite" />
     </line>
-    <line x1="85" y1="-85" x2="-85" y2="85" stroke="#ffffff15" stroke-width="1">
-      <animate attributeName="stroke-opacity" values="0.15;0.08;0.15" dur="7s" repeatCount="indefinite" />
+    <line x1="85" y1="-85" x2="-85" y2="85" stroke="#ffffff30" stroke-width="1.5">
+      <animate attributeName="stroke-opacity" values="0.3;0.15;0.3" dur="7s" repeatCount="indefinite" />
     </line>
+
+    <!-- Added skill dots on the radar for better visual interest -->
+    <circle cx="30" cy="-70" r="5" fill="#6366f1" opacity="0.8">
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="3s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="-60" cy="20" r="4" fill="#10b981" opacity="0.8">
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="4s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="55" cy="45" r="4.5" fill="#0ea5e9" opacity="0.8">
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="3.5s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="-40" cy="-50" r="4" fill="#ff7e5f" opacity="0.8">
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="4.5s" repeatCount="indefinite" />
+    </circle>
   </g>
 
-  <!-- Enhanced main title with improved gradient and animation -->
+  <!-- Name -->
   <g>
-    <text x="80" y="80" font-family="'Segoe UI', 'Roboto', Arial, sans-serif" font-size="44" font-weight="bold" fill="url(#text-gradient)">Full-Stack Web Developer || Software Engineer</text>
-    <text x="80" y="81" font-family="'Segoe UI', 'Roboto', Arial, sans-serif" font-size="44" font-weight="bold" fill="url(#text-gradient)" opacity="0.4" filter="url(#glow)">Full-Stack Web Developer || Software Engineer</text>
+    <text x="80" y="80" font-family="'Segoe UI', 'Roboto', Arial, sans-serif" font-size="44" font-weight="bold" fill="url(#text-gradient)">Rafiur Rahman Saikat</text>
+    <text x="80" y="81" font-family="'Segoe UI', 'Roboto', Arial, sans-serif" font-size="44" font-weight="bold" fill="url(#text-gradient)" opacity="0.4" filter="url(#glow)">Rafiur Rahman Saikat</text>
   </g>
 
   <!-- Improved subtitle with better animation -->
-  <text x="82" y="115" font-family="'Segoe UI', 'Roboto', Arial, sans-serif" font-size="19" fill="#ffffff" opacity="0.9">
-    <tspan>Building the future with code</tspan>
+  <text x="82" y="115" font-family="'Segoe UI', 'Roboto', Arial, sans-serif" font-size="22" fill="#ffffff" opacity="0.9">
+    <tspan>Full-Stack Web Developer || Software Engineer</tspan>
     <animate attributeName="opacity" values="0.9;1;0.9" dur="3s" repeatCount="indefinite" />
   </text>
 
-  <!-- Enhanced tech stack badges with glow effects -->
+  <!-- Tech Stack Accent Border -->
+  <rect x="75" y="125" width="480" height="72" rx="15" ry="15" fill="none" stroke="url(#border-gradient)" stroke-width="2" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;1;0.8" dur="4s" repeatCount="indefinite" />
+  </rect>
+
+  <!-- Enhanced tech stack badges with improved styling -->
   <g transform="translate(80, 130)">
-    <!-- React badge with animation -->
+    <!-- React badge -->
     <rect x="0" y="0" width="75" height="26" rx="13" fill="#ffffff18">
       <animate attributeName="opacity" values="0.9;0.7;0.9" dur="3s" repeatCount="indefinite" />
     </rect>
-    <circle cx="14" cy="13" r="6" fill="url(#tech-glow)" />
-    <text x="35" y="17" font-family="'Segoe UI', 'Roboto', Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle" filter="url(#badge-glow)">React</text>
+    <text x="37.5" y="17" font-family="'Segoe UI', 'Roboto', Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle">React</text>
 
-    <!-- Node.js badge with animation -->
+    <!-- Node.js badge -->
     <rect x="85" y="0" width="75" height="26" rx="13" fill="#ffffff18">
       <animate attributeName="opacity" values="0.9;0.7;0.9" dur="3.2s" repeatCount="indefinite" />
     </rect>
-    <circle cx="99" cy="13" r="6" fill="#8BC34A" opacity="0.8">
-      <animate attributeName="opacity" values="0.8;0.4;0.8" dur="3.2s" repeatCount="indefinite" />
-    </circle>
-    <text x="120" y="17" font-family="'Segoe UI', 'Roboto', Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle" filter="url(#badge-glow)">Node.js</text>
+    <text x="122.5" y="17" font-family="'Segoe UI', 'Roboto', Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle">Node.js</text>
 
-    <!-- Python badge with animation -->
+    <!-- Python badge -->
     <rect x="170" y="0" width="75" height="26" rx="13" fill="#ffffff18">
       <animate attributeName="opacity" values="0.9;0.7;0.9" dur="3.4s" repeatCount="indefinite" />
     </rect>
-    <circle cx="184" cy="13" r="6" fill="#FFD43B" opacity="0.8">
-      <animate attributeName="opacity" values="0.8;0.4;0.8" dur="3.4s" repeatCount="indefinite" />
-    </circle>
-    <text x="205" y="17" font-family="'Segoe UI', 'Roboto', Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle" filter="url(#badge-glow)">Python</text>
+    <text x="207.5" y="17" font-family="'Segoe UI', 'Roboto', Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle">Python</text>
 
-    <!-- TypeScript badge with animation -->
+    <!-- TypeScript badge -->
     <rect x="255" y="0" width="95" height="26" rx="13" fill="#ffffff18">
       <animate attributeName="opacity" values="0.9;0.7;0.9" dur="3.6s" repeatCount="indefinite" />
     </rect>
-    <circle cx="269" cy="13" r="6" fill="#3178C6" opacity="0.8">
-      <animate attributeName="opacity" values="0.8;0.4;0.8" dur="3.6s" repeatCount="indefinite" />
-    </circle>
-    <text x="297" y="17" font-family="'Segoe UI', 'Roboto', Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle" filter="url(#badge-glow)">TypeScript</text>
+    <text x="302.5" y="17" font-family="'Segoe UI', 'Roboto', Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle">TypeScript</text>
 
-    <!-- MongoDB badge with animation -->
+    <!-- MongoDB badge -->
     <rect x="360" y="0" width="95" height="26" rx="13" fill="#ffffff18">
       <animate attributeName="opacity" values="0.9;0.7;0.9" dur="3.8s" repeatCount="indefinite" />
     </rect>
-    <circle cx="374" cy="13" r="6" fill="#47A248" opacity="0.8">
-      <animate attributeName="opacity" values="0.8;0.4;0.8" dur="3.8s" repeatCount="indefinite" />
-    </circle>
-    <text x="402" y="17" font-family="'Segoe UI', 'Roboto', Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle" filter="url(#badge-glow)">MongoDB</text>
+    <text x="407.5" y="17" font-family="'Segoe UI', 'Roboto', Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle">MongoDB</text>
   </g>
 
-  <!-- Social media icons with animation -->
-  <g transform="translate(80, 170)">
-    <!-- GitHub -->
-    <circle cx="15" cy="15" r="15" fill="#ffffff15">
-      <animate attributeName="opacity" values="0.9;0.6;0.9" dur="4s" repeatCount="indefinite" />
-    </circle>
-    <path d="M15,6.5 C10.25,6.5 6.5,10.25 6.5,15 C6.5,18.75 8.875,21.875 12.125,23.125 C12.625,23.25 12.75,22.875 12.75,22.625 C12.75,22.375 12.75,21.875 12.75,21.125 C10.25,21.625 9.75,19.875 9.75,19.875 C9.375,18.75 8.875,18.5 8.875,18.5 C8,17.875 9,17.875 9,17.875 C9.875,17.875 10.25,18.75 10.25,18.75 C11,20 12.25,19.875 12.75,19.75 C12.875,19.125 13.125,18.75 13.375,18.5 C11.375,18.25 9.25,17.5 9.25,13.75 C9.25,12.75 9.5,12 10.25,11.375 C10.125,11.125 9.875,10.25 10.375,9 C10.375,9 11,8.75 12.75,9.875 C13.5,9.625 14.25,9.5 15,9.5 C15.75,9.5 16.5,9.625 17.25,9.875 C19,8.75 19.625,9 19.625,9 C20.125,10.25 19.875,11.125 19.75,11.375 C20.5,12 20.75,12.75 20.75,13.75 C20.75,17.5 18.625,18.25 16.625,18.5 C17,18.875 17.25,19.5 17.25,20.5 C17.25,21.875 17.25,22.25 17.25,22.625 C17.25,22.875 17.375,23.25 17.875,23.125 C21.125,21.875 23.5,18.75 23.5,15 C23.5,10.25 19.75,6.5 15,6.5 Z" fill="#ffffff" />
+  <!-- Additional tech badges for second row -->
+  <g transform="translate(80, 166)">
+    <!-- NextJS badge -->
+    <rect x="0" y="0" width="75" height="26" rx="13" fill="#ffffff18">
+      <animate attributeName="opacity" values="0.9;0.7;0.9" dur="3.1s" repeatCount="indefinite" />
+    </rect>
+    <text x="37.5" y="17" font-family="'Segoe UI', 'Roboto', Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle">NextJS</text>
 
-    <!-- LinkedIn -->
-    <circle cx="55" cy="15" r="15" fill="#ffffff15">
-      <animate attributeName="opacity" values="0.9;0.6;0.9" dur="4.2s" repeatCount="indefinite" />
-    </circle>
-    <path d="M19,19 L16,19 L16,14.25 C16,13.25 15.5,12.5 14.5,12.5 C13.5,12.5 13,13.25 13,14.25 L13,19 L10,19 L10,11 L13,11 L13,12.25 C13,12.25 14,11 15.5,11 C17,11 19,11.75 19,14.25 L19,19 Z M9.5,9.5 C8.5,9.5 7.75,8.75 7.75,7.75 C7.75,6.75 8.5,6 9.5,6 C10.5,6 11.25,6.75 11.25,7.75 C11.25,8.75 10.5,9.5 9.5,9.5 Z M11,19 L8,19 L8,11 L11,11 L11,19 Z" transform="translate(43, 6)" fill="#ffffff" />
+    <!-- Express badge -->
+    <rect x="85" y="0" width="75" height="26" rx="13" fill="#ffffff18">
+      <animate attributeName="opacity" values="0.9;0.7;0.9" dur="3.3s" repeatCount="indefinite" />
+    </rect>
+    <text x="122.5" y="17" font-family="'Segoe UI', 'Roboto', Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle">Express</text>
 
-    <!-- Twitter -->
-    <circle cx="95" cy="15" r="15" fill="#ffffff15">
-      <animate attributeName="opacity" values="0.9;0.6;0.9" dur="4.4s" repeatCount="indefinite" />
-    </circle>
-    <path d="M23,9 C22.25,9.375 21.5,9.5 20.75,9.625 C21.5,9.125 22.125,8.375 22.375,7.5 C21.625,7.875 20.75,8.25 19.875,8.375 C19,7.625 18,7.25 16.875,7.25 C14.75,7.25 13,9 13,11.125 C13,11.5 13,11.75 13.125,12 C9.875,11.875 7,10.375 5.125,8 C4.75,8.625 4.625,9.25 4.625,10 C4.625,11.375 5.375,12.5 6.375,13.125 C5.75,13.125 5.125,12.875 4.625,12.625 C4.625,12.625 4.625,12.625 4.625,12.625 C4.625,14.5 6,16 7.875,16.375 C7.5,16.5 7.125,16.5 6.75,16.5 C6.5,16.5 6.25,16.5 6,16.375 C6.5,17.875 7.875,19 9.5,19 C8.25,20 6.625,20.625 4.875,20.625 C4.5,20.625 4.25,20.625 4,20.625 C5.625,21.625 7.625,22.25 9.75,22.25 C16.875,22.25 20.75,16.5 20.75,11.5 C20.75,11.375 20.75,11.125 20.75,11 C21.5,10.5 22.25,9.75 23,9 Z" transform="translate(83, 4)" fill="#ffffff" />
+    <!-- Django badge -->
+    <rect x="170" y="0" width="75" height="26" rx="13" fill="#ffffff18">
+      <animate attributeName="opacity" values="0.9;0.7;0.9" dur="3.5s" repeatCount="indefinite" />
+    </rect>
+    <text x="207.5" y="17" font-family="'Segoe UI', 'Roboto', Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle">Django</text>
 
-    <!-- Email -->
-    <circle cx="135" cy="15" r="15" fill="#ffffff15">
-      <animate attributeName="opacity" values="0.9;0.6;0.9" dur="4.6s" repeatCount="indefinite" />
-    </circle>
-    <path d="M4,6 L20,6 C21.1,6 22,6.9 22,8 L22,16 C22,17.1 21.1,18 20,18 L4,18 C2.9,18 2,17.1 2,16 L2,8 C2,6.9 2.9,6 4,6 Z M4,8 L12,13 L20,8 L20,6 L4,6 L4,8 Z M20,8.37 L12,13.37 L4,8.37 L4,16 L20,16 L20,8.37 Z" transform="translate(123, 6)" fill="#ffffff" />
+    <!-- Docker badge -->
+    <rect x="255" y="0" width="75" height="26" rx="13" fill="#ffffff18">
+      <animate attributeName="opacity" values="0.9;0.7;0.9" dur="3.7s" repeatCount="indefinite" />
+    </rect>
+    <text x="292.5" y="17" font-family="'Segoe UI', 'Roboto', Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle">Docker</text>
+
+    <!-- Git badge -->
+    <rect x="340" y="0" width="55" height="26" rx="13" fill="#ffffff18">
+      <animate attributeName="opacity" values="0.9;0.7;0.9" dur="3.9s" repeatCount="indefinite" />
+    </rect>
+    <text x="367.5" y="17" font-family="'Segoe UI', 'Roboto', Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle">Git</text>
   </g>
 
-  <!-- Skills section -->
-  <g transform="translate(80, 210)">
-    <text x="0" y="0" font-family="'Segoe UI', 'Roboto', Arial, sans-serif" font-size="14" fill="#ffffff" opacity="0.9">Skills: React, Node.js, TypeScript, Python, MongoDB, Express, NextJS, Git, Docker</text>
+  <!-- Tagline -->
+  <g transform="translate(80, 220)">
+    <text x="0" y="0" font-family="'Segoe UI', 'Roboto', Arial, sans-serif" font-size="16" fill="#ffffff" opacity="0.9">
+      <tspan>Building robust, scalable, and innovative web applications</tspan>
+    </text>
   </g>
 
   <!-- Additional decorative elements -->
@@ -245,7 +275,7 @@
 
   <!-- Contact info -->
   <g transform="translate(80, 260)">
-    <text x="0" y="0" font-family="'Segoe UI', 'Roboto', Arial, sans-serif" font-size="13" fill="#ffffff" opacity="0.8">
+    <text x="0" y="0" font-family="'Segoe UI', 'Roboto', Arial, sans-serif" font-size="14" fill="#ffffff" opacity="0.8">
       <tspan>md.rafiur.rahman.saikat@gmail.com</tspan>
     </text>
   </g>
