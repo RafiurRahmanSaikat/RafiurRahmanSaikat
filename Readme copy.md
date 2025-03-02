@@ -1,6 +1,6 @@
-![Advanced Developer Profile](https://raw.githubusercontent.com/RafiurRahmanSaikat/RafiurRahmanSaikat/main/github-cover.svg)
+![Advanced Developer Profile](https://raw.githubusercontent.com/yourusername/yourusername/main/github-cover.svg)
 
-# Hi there, I'm Rafiur Rahman Saikat 👋
+# Hi there, I'm [Your Name] 👋
 
 I'm a **Full-Stack Web Developer** and **Software Engineer** with a passion for building robust, scalable, and innovative web applications. I have a strong foundation in both frontend and backend development, and I love diving into problem solving, data structures, and algorithms to craft efficient solutions.
 
@@ -10,7 +10,7 @@ I'm a **Full-Stack Web Developer** and **Software Engineer** with a passion for 
 - 🌱 I'm constantly learning and refining my skills in new frameworks and languages
 - 👯 I'm looking to collaborate on exciting projects that challenge my skills and push the boundaries of technology
 - 💬 Ask me about web development, backend services, and algorithmic problem solving
-- 📫 How to reach me: [md.rafiur.rahman.saikat@gmail.com](mailto:md.rafiur.rahman.saikat@gmail.com)
+- 📫 How to reach me: [your.email@example.com](mailto:your.email@example.com)
 - ⚡ Fun fact: I enjoy solving complex coding challenges and regularly practice data structures and algorithms!
 
 ## 🔧 Tech Stack
@@ -69,27 +69,25 @@ I have a deep interest in problem solving and regularly tackle challenges on com
 
 <div style="display: flex; gap: 20px;">
 
-<a href="https://github.com/RafiurRahmanSaikat/shopzone-frontend">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=RafiurRahmanSaikat&repo=shopzone-frontend&theme=tokyonight" />
-</a>
-<a href="https://github.com/RafiurRahmanSaikat/shopzone-frontend">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=RafiurRahmanSaikat&repo=shopzone-frontend&theme=tokyonight" />
+<a href="https://github.com/yourusername/project-one">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=yourusername&repo=project-one&theme=tokyonight" />
 </a>
 
-
+<a href="https://github.com/yourusername/project-two">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=yourusername&repo=project-two&theme=tokyonight" />
+</a>
 
 </div>
 
 <div style="display: flex; gap: 20px; margin-top: 10px;">
 
-<a href="https://github.com/RafiurRahmanSaikat/shopzone_backend">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=RafiurRahmanSaikat&repo=shopzone_backend&theme=tokyonight" />
-</a>
-<a href="https://github.com/RafiurRahmanSaikat/shopzone_backend">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=RafiurRahmanSaikat&repo=shopzone_backend&theme=tokyonight" />
+<a href="https://github.com/yourusername/project-three">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=yourusername&repo=project-three&theme=tokyonight" />
 </a>
 
-
+<a href="https://github.com/yourusername/data-viz-project">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=yourusername&repo=data-viz-project&theme=tokyonight" />
+</a>
 
 </div>
 
@@ -97,22 +95,22 @@ I have a deep interest in problem solving and regularly tackle challenges on com
 
 <div style="display: flex; gap: 20px;">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=RafiurRahmanSaikat&show_icons=true&count_private=true&theme=tokyonight)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&count_private=true&theme=tokyonight)
 
-![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=RafiurRahmanSaikat&layout=compact&theme=tokyonight)
+![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=tokyonight)
 
 </div>
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=RafiurRahmanSaikat&theme=tokyonight)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=yourusername&theme=tokyonight)
 
-<!-- ## 🏆 GitHub Trophies
+## 🏆 GitHub Trophies
 
-![](https://github-profile-trophy.vercel.app/?username=RafiurRahmanSaikat&theme=nord&no-frame=false&no-bg=true&margin-w=4) -->
+![](https://github-profile-trophy.vercel.app/?username=yourusername&theme=nord&no-frame=false&no-bg=true&margin-w=4)
 
 ## 📫 Let's Connect
 
 <div align="center">
-<a href="https://github.com/RafiurRahmanSaikat" target="_blank">
+<a href="https://github.com/yourusername" target="_blank">
 <img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
 </a>
 <a href="https://twitter.com/yourhandle" target="_blank">
@@ -127,7 +125,7 @@ I have a deep interest in problem solving and regularly tackle challenges on com
 </div>
 
 <div align="center">
-<img src="https://komarev.com/ghpvc/?username=RafiurRahmanSaikat&&style=flat-square" align="center" />
+<img src="https://komarev.com/ghpvc/?username=yourusername&&style=flat-square" align="center" />
 </div>
 
 ---
