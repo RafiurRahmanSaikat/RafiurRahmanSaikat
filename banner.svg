@@ -178,15 +178,18 @@
 
   <!-- Name -->
   <g>
-    <text x="80" y="80" font-family="'Segoe UI', 'Roboto', Arial, sans-serif" font-size="44" font-weight="bold" fill="url(#text-gradient)">Rafiur Rahman Saikat</text>
-    <text x="80" y="81" font-family="'Segoe UI', 'Roboto', Arial, sans-serif" font-size="44" font-weight="bold" fill="url(#text-gradient)" opacity="0.4" filter="url(#glow)">Rafiur Rahman Saikat</text>
+    <text x="80" y="50" font-family="'Segoe UI', 'Roboto', Arial, sans-serif" font-size="44" font-weight="bold" fill="url(#text-gradient)">Full-Stack Web Developer &amp;</text>
+    <text x="83" y="51" font-family="'Segoe UI', 'Roboto', Arial, sans-serif" font-size="44" font-weight="bold" fill="url(#text-gradient)" opacity="0.4" filter="url(#glow)">Full-Stack Web Developer &amp;</text>
+
+    <text x="80" y="100" font-family="'Segoe UI', 'Roboto', Arial, sans-serif" font-size="44" font-weight="bold" fill="url(#text-gradient)"># Software Engineer</text>
   </g>
 
+
   <!-- Improved subtitle with better animation -->
-  <text x="82" y="115" font-family="'Segoe UI', 'Roboto', Arial, sans-serif" font-size="22" fill="#ffffff" opacity="0.9">
+  <!-- <text x="82" y="115" font-family="'Segoe UI', 'Roboto', Arial, sans-serif" font-size="22" fill="#ffffff" opacity="0.9">
     <tspan>Full-Stack Web Developer || Software Engineer</tspan>
     <animate attributeName="opacity" values="0.9;1;0.9" dur="3s" repeatCount="indefinite" />
-  </text>
+  </text> -->
 
   <!-- Tech Stack Accent Border -->
   <rect x="75" y="125" width="480" height="72" rx="15" ry="15" fill="none" stroke="url(#border-gradient)" stroke-width="2" opacity="0.8">
@@ -246,17 +249,17 @@
     </rect>
     <text x="207.5" y="17" font-family="'Segoe UI', 'Roboto', Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle">Django</text>
 
-    <!-- Docker badge -->
+    <!-- SQL badge -->
     <rect x="255" y="0" width="75" height="26" rx="13" fill="#ffffff18">
       <animate attributeName="opacity" values="0.9;0.7;0.9" dur="3.7s" repeatCount="indefinite" />
     </rect>
-    <text x="292.5" y="17" font-family="'Segoe UI', 'Roboto', Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle">Docker</text>
+    <text x="292.5" y="17" font-family="'Segoe UI', 'Roboto', Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle">SQL</text>
 
     <!-- Git badge -->
     <rect x="340" y="0" width="55" height="26" rx="13" fill="#ffffff18">
       <animate attributeName="opacity" values="0.9;0.7;0.9" dur="3.9s" repeatCount="indefinite" />
     </rect>
-    <text x="367.5" y="17" font-family="'Segoe UI', 'Roboto', Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle">Git</text>
+    <text x="367.5" y="17" font-family="'Segoe UI', 'Roboto', Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle">C ++</text>
   </g>
 
   <!-- Tagline -->
