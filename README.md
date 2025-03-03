@@ -50,19 +50,19 @@ const saikat = {
       <td align="center" width="33%">
         <h3>Frontend</h3>
         <p align="center">
-          <img src="https://skillicons.dev/icons?i=react,js,ts,html,css,nextjs,tailwind" alt="Frontend Technologies" />
+          <img src="https://skillicons.dev/icons?i=react,nextjs,js,ts,html,css,tailwind" alt="Frontend Technologies" />
         </p>
       </td>
       <td align="center" width="33%">
         <h3>Backend</h3>
         <p align="center">
-          <img src="https://skillicons.dev/icons?i=nodejs,express,python,django,graphql,nestjs" alt="Backend Technologies" />
+          <img src="https://skillicons.dev/icons?i=nodejs,express,python,django,graphql, alt="Backend Technologies" />
         </p>
       </td>
       <td align="center" width="33%">
         <h3>DevOps & Database</h3>
         <p align="center">
-          <img src="https://skillicons.dev/icons?i=mongodb,mysql,git,docker,firebase,aws" alt="DevOps & Database" />
+          <img src="https://skillicons.dev/icons?i=mongodb,mysql,firebase,git,github,linux" alt="DevOps & Database" />
         </p>
       </td>
     </tr>
@@ -117,6 +117,6 @@ const saikat = {
 <hr>
 
 <div align="center">
-  <img src="https://profile-counter.glitch.me/{RafiurRahmanSaikat}/count.svg" alt="Visitor Count" />
+  <!-- <img src="https://profile-counter.glitch.me/{RafiurRahmanSaikat}/count.svg" alt="Visitor Count" /> -->
   <p><i>Thanks for visiting! Hope to connect with you soon.</i></p>
 </div>
