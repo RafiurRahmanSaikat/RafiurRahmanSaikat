@@ -47,22 +47,28 @@ const saikat = {
 <div align="center">
   <table>
     <tr>
-      <td align="center" width="33%">
+      <td align="center" width="25%"">
         <h3>Frontend</h3>
         <p align="center">
-          <img src="https://skillicons.dev/icons?i=react,nextjs,js,ts,html,css,tailwind" alt="Frontend Technologies" />
+          <img src="https://skillicons.dev/icons?i=react,nextjs,js,ts,tailwind,figma" alt="Frontend Technologies" />
         </p>
       </td>
-      <td align="center" width="33%">
+      <td align="center" width="25%">
         <h3>Backend</h3>
         <p align="center">
-          <img src="https://skillicons.dev/icons?i=nodejs,express,python,django,graphql, alt="Backend Technologies" />
+          <img src="https://skillicons.dev/icons?i=nodejs,express,python,django" alt="Backend Technologies" />
         </p>
       </td>
-      <td align="center" width="33%">
-        <h3>DevOps & Database</h3>
+      <td align="center" width="25%">
+        <h3>Database</h3>
         <p align="center">
-          <img src="https://skillicons.dev/icons?i=mongodb,mysql,firebase,git,github,linux" alt="DevOps & Database" />
+          <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,firebase" alt="Database" />
+        </p>
+      </td>
+      <td align="center" width="25%">
+        <h3>Tools</h3>
+        <p align="center">
+          <img src="https://skillicons.dev/icons?i=linux,bash,git,github,notion" alt="Tools" />
         </p>
       </td>
     </tr>
